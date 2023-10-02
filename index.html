@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=PT+Sans&family=Righteous&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo-Alura" src="imagenes/logo.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <input type="text" class="texto-encriptar" required placeholder=" Ingrese texto a encriptar">            
+            <div>
+                <h6 class="leyenda">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div>
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()" >Desencriptar</button>              
+            </div>
+            
+        </section>    
+        <section>
+            <textarea name="texto" class="texto-encriptado" cols="25" rows="10" placeholder="Texto encriptado"></textarea>    
+            <div>
+                <button class="copiar"onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyrigth"> &copy Copyrigth Encriptador - 2023</p>
+    </footer>
+
+<script src="script.js"></script>  
+</body>
+</html>

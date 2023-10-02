@@ -1,0 +1,130 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo-Alura{
+    padding: 50px 10px 10px 10px;
+}
+
+main{
+    display: flex;
+    background:linear-gradient(rgb(255, 255, 255), rgb(174, 170, 137));
+}
+
+.texto-encriptar{
+    width: 80%;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background:#1155a8;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    padding: 15px 0;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.texto-encriptar:hover{
+    color: #d4c8ab;
+    background: #1155a8;
+    border: 1px solid #ffffff;
+    box-shadow: 15px 15px 25px 5px orangered;
+}
+
+.leyenda{
+    margin-top: 450px;
+    margin-left: 120px;
+}
+
+.boton-encriptar{
+    border: 1px solid white;
+    border-radius: 24px;
+    color:  #d4c8ab;
+    background: #1155a8;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 336px;
+}
+
+.boton-encriptar:hover{
+    color: #1155a8;
+    background: #d4c8ab;
+    transform: scale(1.05);
+    border: 1px solid #1155a8;
+}
+
+.boton-desencriptar{ 
+    border: 1px solid ;
+    border-radius: 24px;
+    color: #1155a8;
+    background: #d4c8ab;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 336px;
+}
+
+.boton-desencriptar:hover{
+    background: #1155a8;
+    color: #d4c8ab;
+    transform: scale(1.05);
+    border: 1px solid white;
+}
+
+
+.texto-encriptado{
+    height: 630px;
+    background: white;
+    background-image: url(imagenes/fondo-textarea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color:#1155a8 ;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding:15px 0 0 20px;
+    position: fixed;
+}
+
+.texto-encriptado:hover{
+    border: 1px solid #ffffff;
+    box-shadow: -15px 15px 25px 5px orangered;
+    background: #d4c8ab;
+    color: #1155a8;
+}
+
+.copiar {
+    border: 1px soliz #ffffff;
+    border-radius: 24px;
+    color: #d4c8ab;
+    background: #1155a8;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.copiar:hover{
+    color:  #d4c8ab;
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+
+.copyrigth{  
+    background-color:rgb(174, 170, 137) ;
+    padding-top:15px ;
+    padding: 15px 0 15px 120px;
+}
